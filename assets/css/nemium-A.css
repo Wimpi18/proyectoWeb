@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 .wrapper {
     display: grid;
     grid-template-columns: 208px 1fr;
@@ -96,9 +97,11 @@ body {
     height: 350px;
     background-image: url(../images/patron-1.png);
 }
+
 .aside {
     width: 240px;
 }
+
 .aside-navbar {
     position: sticky;
     top: 20px;
@@ -108,11 +111,12 @@ body {
     width: 100%;
 }
 
-.setup img{
+.setup img {
     padding: 15px;
     background-color: black;
     border-radius: 60px;
 }
+
 h1 {
     font-size: 60px;
     font-weight: normal;
@@ -120,12 +124,13 @@ h1 {
     margin-top: 60px;
     margin-bottom: 20px;
 }
+
 h2 {
     font-size: 32px;
     font-weight: normal;
 }
 
-h3{
+h3 {
     width: max-content;
     font-size: 24px;
     font-weight: normal;
@@ -178,6 +183,7 @@ pre {
     background: black;
     box-sizing: border-box;
 }
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -191,9 +197,12 @@ pre {
 .redes-Sociales {
     height: 20px;
     width: 100px;
+    filter: invert();
 }
-.redesSociales img {
+
+.redes-Sociales svg {
     width: auto;
     max-height: 100%;
     padding-right: 10px;
+    filter: invert();
 }

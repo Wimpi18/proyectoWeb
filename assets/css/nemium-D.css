@@ -2,7 +2,7 @@
 
 :root {
     --background: #251f24;
-    --header-background: linear-gradient(300deg, #4b00e08d 10%, #8d2de285 150%), url("../assets/images/patron-2.png");
+    --header-background: linear-gradient(300deg, #4b00e08d 10%, #8d2de285 150%), url("../images/patron-2.png");
     --code-background: #3e3e3e;
     --footer-background: #fff;
     --quote-background: #3e3e3e;

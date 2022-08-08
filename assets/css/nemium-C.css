@@ -3,12 +3,12 @@
 :root {
     --bg: #fff;
     --code-bg: #e5e5e5;
-    
+
     --input-border: 1px solid #616161;
     --input-color: #424242;
     --btn-text-color: #ffffff;
     --btn-bg: #000000;
-    
+
     --list-title-color: #251f24;
     --link-color: #251f24;
 
@@ -125,7 +125,7 @@ body {
     margin-top: 80px;
 }
 
-.setup img{
+.setup img {
     background-color: black;
     border-radius: 50%;
     padding: 15px;
