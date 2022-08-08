@@ -1,5 +1,7 @@
-.container {
-    display: flex;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+.wrapper {
+    display: grid;
+    grid-template-columns: 208px 1fr;
     width: 100%;
     gap: 45px;
     margin: 0 auto;
@@ -29,17 +31,16 @@ body {
 
 .theme-list button {
     display: block;
-    width: 100%;
+    width: 80%;
     padding: 8px;
-    background-color: #251f24;
+
     border-style: none;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     text-align: left;
     line-height: 24px;
-    color: #808080;
-    border-radius: 4px;
+    border-radius: 10px;
     box-sizing: border-box;
     text-decoration: none;
 }
@@ -58,7 +59,6 @@ body {
     font-weight: bold;
     font-size: 14px;
     line-height: 24px;
-    color: #808080;
 }
 
 .dropdown ol {
@@ -101,7 +101,7 @@ body {
 }
 .aside-navbar {
     position: sticky;
-    top: 20´x;
+    top: 20px;
 }
 
 .main-content {
@@ -178,7 +178,7 @@ pre {
     background: black;
     box-sizing: border-box;
 }
-.piePagina {
+.footer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -188,8 +188,9 @@ pre {
     height: 174px;
 }
 
-.redesSociales {
+.redes-Sociales {
     height: 20px;
+    width: 100px;
 }
 .redesSociales img {
     width: auto;
